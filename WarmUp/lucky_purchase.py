@@ -15,7 +15,7 @@ def is_lucky(laptop):
     return fours==sevens
 
 def key_laptop(l):
-    return l[1]
+    return int(l[1])
 
 if __name__=='__main__':
     n = int(raw_input())
